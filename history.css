@@ -1,0 +1,22 @@
+.history-section { padding: 60px 20px; background: #f9f6fc; }
+.history-section .section-title { text-align: center; margin-bottom: 30px; font-size: 2rem; }
+.history-controls { display: flex; justify-content: center; gap: 20px; margin-bottom: 20px; flex-wrap: wrap; }
+.filter-form label { margin-right: 8px; font-weight: 500; }
+.filter-form select, .filter-form input { padding: 5px 8px; border-radius: 6px; border: 1px solid #ccc; }
+.filter-form button { padding: 6px 12px; border-radius: 6px; border: none; background: #8e44ad; color: #fff; cursor: pointer; }
+.filter-form button:hover { background: #732d91; }
+
+.history-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+.history-card { background: #fff; border-radius: 12px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transition: transform 0.2s; }
+.history-card:hover { transform: translateY(-5px); }
+.history-date { font-size: 0.85rem; color: #666; margin-bottom: 10px; }
+.history-mood { font-weight: 600; margin-bottom: 10px; }
+.history-entry { font-size: 0.95rem; margin-bottom: 10px; }
+.history-tags { font-size: 0.85rem; color: #888; }
+.no-history { text-align: center; font-size: 1.1rem; }
+.no-history a { color: #8e44ad; text-decoration: none; font-weight: 600; }
+.no-history a:hover { text-decoration: underline; }
+
+a {
+  text-decoration: none;
+}
